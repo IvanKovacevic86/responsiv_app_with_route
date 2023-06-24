@@ -1,0 +1,122 @@
+.features {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.manage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.manage h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  max-width: 28rem;
+  font-weight: 700;
+}
+
+.manage p {
+  text-align: center;
+  color: hsl(227 12% 61%);
+  max-width: 24rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.listItemDiv {
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+  background-color: hsl(12 88% 95%);
+}
+
+.listItemDivSecond {
+  display: flex;
+  align-items: center;
+}
+
+.cirkle {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 9999px;
+  background-color: hsl(12 88% 59%);
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.hiddenHeading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+}
+
+.paragraph {
+  color: hsl(227 12% 61%);
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .features {
+    max-width: 768px;
+    flex-direction: row;
+  }
+
+  .manage {
+    width: 50%;
+    align-items: start;
+  }
+
+  .manage h2 {
+    text-align: left;
+    margin-top: 0.75px;
+  }
+
+  .manage p {
+    text-align: left;
+  }
+
+  .list {
+    width: 50%;
+    margin-top: 0px;
+  }
+
+  .listItemDiv {
+    background-color: transparent;
+  }
+
+  .listItem {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .features {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .features {
+    max-width: 1440px;
+  }
+}

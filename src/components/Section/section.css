@@ -1,0 +1,68 @@
+.sec {
+  background-color: hsl(12 88% 59%);
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.secDiv h2 {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.secbutton {
+  padding: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  color: hsl(12 88% 59%);
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+}
+
+.secbutton:hover {
+  background-color: black;
+}
+
+@media (min-width: 768px) {
+  .secDiv {
+    max-width: 768px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .secDiv h2 {
+    text-align: left;
+    max-width: 36rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .secDiv {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .secDiv {
+    max-width: 1440px;
+  }
+}

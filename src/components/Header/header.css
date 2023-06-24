@@ -1,0 +1,76 @@
+.mainDiv {
+  margin-top: 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgDiv {
+  padding-top: 0.5rem;
+}
+
+.linkDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.linkDiv a {
+  text-decoration: none;
+  color: black;
+}
+
+.linkDiv a:hover {
+  color: hsl(227, 12%, 61%);
+}
+
+.orangeButton {
+  display: none;
+  padding: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  color: white;
+  background-color: hsl(12, 88%, 59%);
+  border: none;
+  border-radius: 25px;
+}
+
+.orangeButton:hover {
+  background-color: hsl(12, 88%, 69%);
+}
+
+@media (min-width: 768px) {
+  .mainDiv {
+    max-width: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .linkDiv {
+    flex-direction: row;
+    margin-top: 0rem;
+  }
+
+  .linkDiv a {
+    margin-right: 1.5rem;
+  }
+
+  .orangeButton {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mainDiv {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .mainDiv {
+    max-width: 1440px;
+  }
+}

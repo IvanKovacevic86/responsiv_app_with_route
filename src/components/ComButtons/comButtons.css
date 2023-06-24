@@ -1,0 +1,122 @@
+.community {
+  background-color: #29282d;
+}
+
+.comButtons {
+  display: block;
+  padding-top: 2rem;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstButton {
+  background-color: #f34e3a;
+  color: white;
+  margin-bottom: 2rem;
+  letter-spacing: 3px;
+  border-width: 2px;
+  height: 50px;
+  font-weight: 700;
+  box-sizing: content-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid #f34e3a;
+  border-radius: 3px;
+}
+
+.secondButton {
+  background: none;
+  color: white;
+  margin-bottom: 2rem;
+  letter-spacing: 3px;
+  height: 50px;
+  font-weight: 700;
+  box-sizing: content-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+}
+
+.thirdButton {
+  background-color: #45b87e;
+  color: white;
+  letter-spacing: 3px;
+  height: 50px;
+  font-weight: 700;
+  box-sizing: content-box;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  border: 2px solid #45b87e;
+  border-radius: 3px;
+}
+
+.firstButton:hover {
+  background: none;
+  color: #f34e3a;
+}
+
+.secondButton:hover {
+  background: #fff;
+  color: black;
+}
+
+.thirdButton:hover {
+  background: none;
+  color: #45b87e;
+}
+
+@media (min-width: 768px) {
+  .comButtons {
+    max-width: 768px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .firstButton {
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+  }
+
+  .secondButton {
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .comButtons {
+    max-width: 1024px;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .firstButton {
+    margin-right: 1.5rem;
+  }
+
+  .secondButton {
+    margin-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .comButtons {
+    max-width: 1440px;
+
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .firstButton {
+    margin-right: 2rem;
+  }
+
+  .secondButton {
+    margin-right: 2rem;
+  }
+}

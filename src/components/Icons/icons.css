@@ -1,0 +1,47 @@
+.icons {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.icons h1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.iconsDiv {
+  display: block;
+  margin-top: 3rem;
+}
+
+.iconsDiv h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 25px;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .icons {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .icons {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .icons {
+    max-width: 1440px;
+  }
+}
