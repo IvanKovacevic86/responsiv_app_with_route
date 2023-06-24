@@ -9,7 +9,7 @@ const ReadMore = () => {
         <h1>BUILT TO BRING BEST RESULT</h1>
         <p>
           Enjoy an extensive cardio zone, use our exercise equipment, or join a
-          group program.
+          group program!
         </p>
         <div className="readButton">
           <button className="firstButton">READ MORE</button>
